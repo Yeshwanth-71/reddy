@@ -1,0 +1,194 @@
+body{
+  background-color: white;
+}
+h1 {
+  font-family: 'Arial', sans-serif; /* Font for H1 */
+}
+
+p {
+  font-family: "Playpen_Sans variant0"Tofu (ttf); /* Font for Paragraph */
+}
+.any{
+ background-image: url("https://wallpaperaccess.com/full/834258.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+ width: 100%;
+}
+.navbar{
+ background-position: fixed;
+ background-attachment: fixed;
+}
+.navbar-toggler {
+  border-color: transparent; /* Removes the default border */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  /* Change rgba(255, 255, 255, 1) to any color */
+}
+.custom-spacing {
+margin-right: 30px; /* Adjust as needed */
+}
+
+/* Custom white color for buttons */
+.btn-membership {
+background-color: transparent; /* Transparent background */
+color: white; /* White text */
+border-color: white; /* White border */
+}
+
+
+.btn-login {
+background-color: white; /* White background */
+color: #007bff; /* Blue text (or any other color you prefer) */
+}
+.navbar-nav .nav-link:hover {
+color: #f8f9fa; /* Slightly lighter white */
+background-color: rgba(255, 255, 255, 0.1); /* Light transparent background */
+border-radius: 5px; /* Optional: add a slight rounding */
+}
+
+/* Hover effects for Membership button */
+.btn-membership:hover {
+background-color: white; /* White background on hover */
+color: #007bff; /* Blue text on hover */
+}
+
+/* Hover effects for Log In button */
+.btn-login:hover {
+background-color: #0056b3; /* Darker blue background on hover */
+color: white; /* White text on hover */
+}
+/* Custom color for navbar icons */
+.navbar .bi, /* Bootstrap Icons */
+.navbar .fa { /* Font Awesome (replace .fa with your icon class if using a different library) */
+color: white; /* Change to your preferred color */
+}
+
+/* Custom hover effect for icons */
+.navbar .bi:hover,
+.navbar .fa:hover {
+color: #007bff; /* Change to your preferred hover color */
+}
+
+ .new{
+   font-weight: 800;
+   color: white;
+   text-align: left;
+   gap: 50px;
+   position: relative;
+   left: 30%; 
+   transform: translateX(-20%);
+ }
+ img:hover {
+  transform: scale(1.1); /* Zoom the image by 10% */
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4); 
+  filter: brightness(1.1); 
+}
+ .col-sm-7{
+   font-weight: 400;
+   color: white;
+   text-align: start;
+   gap: 50px;
+   position: relative;
+   left: 30%; 
+   transform: translateX(-20%);
+   text-indent: 0px;
+   font-stretch: 100%;
+ }
+ .main{
+   width: 100%;
+   text-align: center;
+ }
+   /* Add top border to the first row */
+   .bordered-row:first-child {
+     border-top: 2px solid #000;
+ }
+
+ /* Add bottom border to the last row */
+ .bordered-row:last-child {
+     border-bottom: 2px solid #000;
+ }
+
+ /* Optional: Padding for better visual layout */
+ .bordered-row {
+     border-top: 2px solid #000; /* Top border */
+     border-bottom: 2px solid #000; /* Bottom border */
+     padding: 20px 0;
+     text-align: center;
+ }
+ .head{
+  font-weight: 400;
+  color: blueviolet;
+  text-align: center;
+ }
+ .col-sm-6{
+  font-weight: 400;
+  color: blueviolet;
+  text-align: center;
+ }
+ .video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (divide 9 by 16 = 0.5625 or 56.25%) */
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+ .class1{
+   background-image: url("https://cdn.pixabay.com/photo/2015/01/09/11/22/fitness-594143_1280.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 100%;
+ }
+ .container-fluid{
+  position: relative;
+  text-align: center;
+  color: black;
+  transition: transform 0.4s ease, filter 0.4s ease, box-shadow 0.4s ease;
+}
+.centered{
+  font-weight: 400;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.head1{
+  font-weight: 400;
+  color: blueviolet;
+  text-align: center;
+ }
+ .class3{
+  background-color: blueviolet;
+ }
+ 
+ .inline-fields {
+  display: flex;
+  gap: 10px; /* Adds space between the fields */
+}
+
+.inline-fields input {
+  padding: 5px;
+  font-size: 16px;
+}
+ .d-flex{
+  margin-right: 10px;
+ }
+ input:hover{
+  background-color: aqua;
+ }
+p:hover{
+  color: aqua;
+}
