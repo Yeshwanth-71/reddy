@@ -99,6 +99,13 @@ img {
    width: 100%;
    text-align: center;
  }
+ .many h1:hover{
+    background-color: aqua;
+    color: blue;
+ }
+ .bordered-row:hover{
+    background-color: aqua;
+ }
    /* Add top border to the first row */
    .bordered-row:first-child {
      border-top: 2px solid #000;
