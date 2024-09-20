@@ -1,13 +1,6 @@
 body{
   background-color: white;
 }
-h1 {
-  font-family: 'Arial', sans-serif; /* Font for H1 */
-}
-
-p {
-  font-family: "Playpen_Sans variant0"Tofu (ttf); /* Font for Paragraph */
-}
 .any{
  background-image: url("https://wallpaperaccess.com/full/834258.jpg");
  background-repeat: no-repeat;
@@ -17,7 +10,7 @@ p {
  width: 100%;
 }
 .navbar{
- background-position: fixed;
+
  background-attachment: fixed;
 }
 .navbar-toggler {
@@ -87,6 +80,10 @@ color: #007bff; /* Change to your preferred hover color */
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4); 
   filter: brightness(1.1); 
 }
+img {
+    transition: transform 0.3s, box-shadow 0.3s, filter 0.3s;
+}
+
  .col-sm-7{
    font-weight: 400;
    color: white;
